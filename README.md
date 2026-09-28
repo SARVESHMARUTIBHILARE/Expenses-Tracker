@@ -15,7 +15,7 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
 ### 📸 Screenshots Section
 <table width="100%">
     <tr>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src= title=Images/tau1.png "Ai " /></td>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau1.png  title="Ai"/></td>
         <td width="33%"><img alt="Screenshot of Expenses Trackers"src=images/78.jpg title="Ai " /></td>
         <td width="33%"><img alt="Screenshot of Expenses Trackers "src=images/88.jpg title="Ai " /></td>
 </tr>
