@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><title>
+        Spendly — Transactions</title><link rel="stylesheet" href="style.css">
+    </head>
+        <body><div class="layout">
+            <aside class="sidebar">
+            <div class="brand">
+            <div class="logo">₹</div>
+            <div>
+                <b>Spendly</b>
+                <small>Expense Analytics</small>
+            </div>
+        </div>
+        <nav>
+<a class="" href="index.html">⌂ Dashboard</a>
+<a class="" href="monthly.html">▥ Monthly</a>
+<a class="" href="yearly.html">◔ Yearly</a>
+<a class="active" href="transactions.html">↔ Transactions</a>
+</nav><div class="budget"><small>Monthly budget</small>
+    <strong>₹25,000</strong>
+    <div class="bar">
+        <i id="budgetBar"></i>
+    </div>
+    <span id="budgetText">Loading...</span>
+</div>
+</aside>
+<main>
+    <header>
+    <div>
+    <label>TRANSACTION MANAGEMENT</label>
+    <h1>All transactions</h1>
+    <p>Add, search and manage data shared by every page.</p>
+</div>
+<button class="primary" id="openModal">＋ Add transaction</button>
+</header>
+<div class="status" id="status">Loading...</div>
+<section class="cards"><div class="card green"> 
+    <span>Total income</span>
+    <b id="income">₹0</b>
+</div>
+    <div class="card red">
+        <span>Total expenses</span>
+        <b id="expense">₹0</b>
+    </div>
+    <div class="card purple">
+        <span>Balance</span>
+        <b id="balance">₹0</b>
+    </div>
+    <div class="card gold">
+        <span>Records</span>
+        <b id="count">0</b>
+    </div>
+</section>
+<section class="panel transactions" style="margin-top:15px">
+    <div class="head">
+        <div>
+        <h3>Saved transactions</h3>
+        <small>Changes appear on Dashboard, Monthly and Yearly pages.</small>
+    </div><div class="tools">
+        <input id="search" placeholder="Search...">
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+        </select>
+    </div>
+</div>
+<div id="list">
+
+        </div>
+    </section>
+</main>
+</div>
+<div class="modal" id="modal">
+    <div class="modalbox">
+        <button class="x" id="closeModal">×</button>
+        <label>NEW TRANSACTION</label>
+        <h2>Add transaction</h2>
+        <form id="form">
+            <input id="description" placeholder="Description" required>
+            <div class="two">
+                <input id="amount" type="number" min="1" step="0.01" placeholder="Amount" required>
+                <select id="type">
+                    <option value="expense">Expense</option>
+                    <option value="income">Income</option>
+                </select>
+            </div>
+            <div class="two">
+                    <select id="category">
+                        <option>Food</option>
+                        <option>Shopping</option>
+                        <option>Transport</option>
+                        <option>Bills</option>
+                        <option>Entertainment</option>
+                        <option>Health</option>
+                        <option>Education</option>
+                        <option>Salary</option>
+                        <option>Other</option>
+                    </select>
+                    <input id="date" type="date" required>
+                </div>
+                    <button class="primary full">Save transaction</button>
+                </form>
+                </div>
+                </div>
+                <script src="script.js"> </script>
+                </body>
+                </html>
