@@ -12,23 +12,29 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
 
 ---
 
-### 📸 Screenshots Section  ###
-
-<table width="100%">
+### 📸 Screenshots Section
+<table>
     <tr>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau1.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau2.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau3.png title="Ai " /></td>
-</tr>
- <tr>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau4.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau5.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau6.pngtitle="Ai " /></td>
-</tr> 
-<tr>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau7.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=Images/tau8.png title="Ai " /></td>
-</tr> 
+        <td width="33%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau4.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="33%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau5.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="33%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau6.png" title="Expenses Tracker" width="100%" />
+        </td>
+    </tr>
+<table>
+    <tr>
+        <td width="33%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau7.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="33%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau8.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="33%"></td>
+    </tr>
 </table>
 
 
