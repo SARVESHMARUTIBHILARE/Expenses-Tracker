@@ -24,7 +24,7 @@ Here are some screenshots of the **Expenses Tracker** application, showcasing th
       <strong>Dashboard</strong>
     </td>
     <td width="50%" align="center">
-      <img src="Images/tau2.png" alt="Expenses Tracker Overview" width="100%">
+      <img src="Images/tau 2.png" alt="Expenses Tracker Overview" width="100%">
       <br>
       <strong>Overview</strong>
     </td>
@@ -32,12 +32,12 @@ Here are some screenshots of the **Expenses Tracker** application, showcasing th
 
   <tr>
     <td width="50%" align="center">
-      <img src="Images/tau3.png" alt="Monthly Analytics" width="100%">
+      <img src="Images/tau 3.png" alt="Monthly Analytics" width="100%">
       <br>
       <strong>Monthly Analytics</strong>
     </td>
     <td width="50%" align="center">
-      <img src="Images/tau4.png" alt="Yearly Analytics" width="100%">
+      <img src="Images/tau 4.png" alt="Yearly Analytics" width="100%">
       <br>
       <strong>Yearly Analytics</strong>
     </td>
@@ -45,12 +45,12 @@ Here are some screenshots of the **Expenses Tracker** application, showcasing th
 
   <tr>
     <td width="50%" align="center">
-      <img src="Images/tau5.png" alt="Transactions Management" width="100%">
+      <img src="Images/tau 5.png" alt="Transactions Management" width="100%">
       <br>
       <strong>Transactions</strong>
     </td>
     <td width="50%" align="center">
-      <img src="Images/tau6.png" alt="Expense Analysis" width="100%">
+      <img src="Images/tau 6.png" alt="Expense Analysis" width="100%">
       <br>
       <strong>Expense Analysis</strong>
     </td>
@@ -58,12 +58,12 @@ Here are some screenshots of the **Expenses Tracker** application, showcasing th
 
   <tr>
     <td width="50%" align="center">
-      <img src="Images/tau7.png" alt="Financial Reports" width="100%">
+      <img src="Images/tau 7.png" alt="Financial Reports" width="100%">
       <br>
       <strong>Financial Reports</strong>
     </td>
     <td width="50%" align="center">
-      <img src="Images/tau8.png" alt="Financial Analytics" width="100%">
+      <img src="Images/tau 8.png" alt="Financial Analytics" width="100%">
       <br>
       <strong>Financial Analytics</strong>
     </td>
