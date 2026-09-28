@@ -11,65 +11,25 @@ The Expenses Tracker helps users record and manage their daily financial activit
 The application is designed to work with **Microsoft Edge**, **Python Flask**, and **MySQL/XAMPP**.
 
 ---
-
 ## 📸 Screenshots
 
-Here are some screenshots of the **Expenses Tracker** application, showcasing the dashboard, analytics, transactions, and other features.
+| Dashboard | Overview |
+|:---:|:---:|
+| <img src="Images/tau1.png" alt="Expenses Tracker Dashboard" width="100%"> | <img src="Images/tau2.png" alt="Expenses Tracker Overview" width="100%"> |
 
-<table width="100%">
+| Monthly Analytics | Yearly Analytics |
+|:---:|:---:|
+| <img src="Images/tau3.png" alt="Monthly Analytics" width="100%"> | <img src="Images/tau4.png" alt="Yearly Analytics" width="100%"> |
+
+| Transactions | Expense Analysis |
+|:---:|:---:|
+| <img src="Images/tau5.png" alt="Transactions" width="100%"> | <img src="Images/tau6.png" alt="Expense Analysis" width="100%"> |
+
+| Financial Reports | Financial Analytics |
+|:---:|:---:|
+| <img src="Images/tau7.png" alt="Financial Reports" width="100%"> | <img src="Images/tau8.png" alt="Financial Analytics" width="100%"> |
+ 
   <tr>
-    <td width="50%" align="center">
-      <img src="Images/tau1.png" alt="Expenses Tracker Dashboard" width="100%">
-      <br>
-      <strong>Dashboard</strong>
-    </td>
-    <td width="50%" align="center">
-      <img src="Images/tau 2.png" alt="Expenses Tracker Overview" width="100%">
-      <br>
-      <strong>Overview</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" align="center">
-      <img src="Images/tau 3.png" alt="Monthly Analytics" width="100%">
-      <br>
-      <strong>Monthly Analytics</strong>
-    </td>
-    <td width="50%" align="center">
-      <img src="Images/tau 4.png" alt="Yearly Analytics" width="100%">
-      <br>
-      <strong>Yearly Analytics</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" align="center">
-      <img src="Images/tau 5.png" alt="Transactions Management" width="100%">
-      <br>
-      <strong>Transactions</strong>
-    </td>
-    <td width="50%" align="center">
-      <img src="Images/tau 6.png" alt="Expense Analysis" width="100%">
-      <br>
-      <strong>Expense Analysis</strong>
-    </td>
-  </tr>
-
-  <tr>
-    <td width="50%" align="center">
-      <img src="Images/tau 7.png" alt="Financial Reports" width="100%">
-      <br>
-      <strong>Financial Reports</strong>
-    </td>
-    <td width="50%" align="center">
-      <img src="Images/tau 8.png" alt="Financial Analytics" width="100%">
-      <br>
-      <strong>Financial Analytics</strong>
-    </td>
-  </tr>
-</table>
-
 ## ✨ Features
 
 ### 📊 Dashboard
