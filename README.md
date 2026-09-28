@@ -17,17 +17,17 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
 <table width="100%">
     <tr>
         <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau1.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau2.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau3.png title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau 2.png title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau 3.png title="Ai " /></td>
 </tr>
  <tr>
-        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau4.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau5.png title="Ai " /></td>
-        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau6.pngtitle="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau 4.png title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau  5.png title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau 6.pngtitle="Ai " /></td>
 </tr> 
 <tr>
-        <td width="50%"><img alt="Screenshot of hospital management system "src=Images/tau7.png title="Ai " /></td>
-        <td width="50%"><img alt="Screenshot of hospital management system "src=Images/tau8.png title="Ai " /></td>
+        <td width="50%"><img alt="Screenshot of hospital management system "src=Images/tau 7.png title="Ai " /></td>
+        <td width="50%"><img alt="Screenshot of hospital management system "src=Images/tau 8.png title="Ai " /></td>
 </tr> 
 </table>
 
