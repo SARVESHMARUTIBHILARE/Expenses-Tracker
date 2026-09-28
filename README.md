@@ -13,30 +13,23 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
 ---
 
 ### 📸 Screenshots Section
-<table>
+<table width="100%">
     <tr>
-        <td width="33%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau4.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="33%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau5.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="33%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau6.png" title="Expenses Tracker" width="100%" />
-        </td>
-    </tr>
-<table>
-    <tr>
-        <td width="33%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau7.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="33%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau8.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="33%"></td>
-    </tr>
-</table>
-
+        <td width="33%"><img alt="Screenshot of Expenses Trackers"src= title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers"src=images/78.jpg title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers "src=images/88.jpg title="Ai " /></td>
+</tr>
+ <tr>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers "src=images/89.jpg title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers "src=images/99.jpg title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers "src=images/90.jpg title="Ai " /></td>
+</tr> 
+<tr>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers "src=images/111.jpg title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of Expenses Trackers "src=images/123.jpg title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src= title="Ai " /></td>
+</tr> 
+    </table>
 
 ## ✨ Features
 
