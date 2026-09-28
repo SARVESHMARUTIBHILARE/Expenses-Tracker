@@ -13,24 +13,44 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
 ---
 
 ### 📸 Screenshots Section
+
 <table width="100%">
     <tr>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers"src=Images/tau1.png  title="Ai"/></td>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers"src=Images/tau2.png title="Ai /></td>
-</tr>
- <tr>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers "src=images/tau3.png title="Ai " /></td>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers "src=images/tau4.png title="Ai" /></td>
-<tr>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers "src=images/tau5.png title="Ai " /></td>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers "src=images/tau6.png title="Ai " /></td>
-</tr> 
-<tr>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers "src=images/tau7.png title="Ai " /></td>
-        <td width="50%"><img alt="Screenshot of Expenses Trackers "src=images/tau8.png title="Ai " /></td>
-</tr>
-    </table>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau1.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau2.png" title="Expenses Tracker" width="100%" />
+        </td>
+    </tr>
 
+    <tr>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau3.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau4.png" title="Expenses Tracker" width="100%" />
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau5.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau6.png" title="Expenses Tracker" width="100%" />
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau7.png" title="Expenses Tracker" width="100%" />
+        </td>
+        <td width="50%">
+            <img alt="Screenshot of Expenses Tracker" src="Images/tau8.png" title="Expenses Tracker" width="100%" />
+        </td>
+    </tr>
+</table>
 ## ✨ Features
 
 ### 📊 Dashboard
