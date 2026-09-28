@@ -26,8 +26,8 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
         <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau 6.pngtitle="Ai " /></td>
 </tr> 
 <tr>
-        <td width="50%"><img alt="Screenshot of hospital management system "src=Images/tau 7.png title="Ai " /></td>
-        <td width="50%"><img alt="Screenshot of hospital management system "src=Images/tau 8.png title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau 7.png title="Ai " /></td>
+        <td width="33%"><img alt="Screenshot of hospital management system "src=Images/tau 8.png title="Ai " /></td>
 </tr> 
 </table>
 
