@@ -15,19 +15,19 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
 
 | Dashboard | Overview |
 |:---:|:---:|
-| <img src="Images/tau1.png" alt="Expenses Tracker Dashboard" width="100%"> | <img src="Images/tau2.png" alt="Expenses Tracker Overview" width="100%"> |
+| <img src="Images/tau1.png" alt="Expenses Tracker Dashboard" width="100%"> | <img src="Images/tau 2.png" alt="Expenses Tracker Overview" width="100%"> |
 
 | Monthly Analytics | Yearly Analytics |
 |:---:|:---:|
-| <img src="Images/tau3.png" alt="Monthly Analytics" width="100%"> | <img src="Images/tau4.png" alt="Yearly Analytics" width="100%"> |
+| <img src="Images/tau 3.png" alt="Monthly Analytics" width="100%"> | <img src="Images/tau 4.png" alt="Yearly Analytics" width="100%"> |
 
 | Transactions | Expense Analysis |
 |:---:|:---:|
-| <img src="Images/tau5.png" alt="Transactions" width="100%"> | <img src="Images/tau6.png" alt="Expense Analysis" width="100%"> |
+| <img src="Images/tau 5.png" alt="Transactions" width="100%"> | <img src="Images/tau 6.png" alt="Expense Analysis" width="100%"> |
 
 | Financial Reports | Financial Analytics |
 |:---:|:---:|
-| <img src="Images/tau7.png" alt="Financial Reports" width="100%"> | <img src="Images/tau8.png" alt="Financial Analytics" width="100%"> |
+| <img src="Images/tau 7.png" alt="Financial Reports" width="100%"> | <img src="Images/tau 8.png" alt="Financial Analytics" width="100%"> |
  
   <tr>
 ## ✨ Features
