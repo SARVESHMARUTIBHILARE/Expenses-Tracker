@@ -1,0 +1,100 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Spendly — Dashboard</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="layout"><aside class="sidebar">
+        <div class="brand">
+    <div class="logo">₹</div>
+    <div>
+        <b>Spendly</b>
+        <small>Expense Analytics</small>
+    </div>
+</div>
+    <nav>
+<a class="active" href="index.html">⌂ Dashboard</a>
+<a class="" href="monthly.html">▥ Monthly</a>
+<a class="" href="yearly.html">◔ Yearly</a>
+<a class="" href="transactions.html">↔ Transactions</a>
+</nav><div class="budget"><small>Monthly budget</small>
+    <strong>₹25,000</strong><div class="bar">
+        <i id="budgetBar"></i></div><span id="budgetText">Loading...</span>
+    </div>
+</aside>
+<main>
+    <header>
+        <div>
+            <label>PERSONAL FINANCE • DASHBOARD</label>
+            <h1>Financial dashboard</h1>
+            <p>One connected place for your income, expenses and savings.</p>
+        </div>
+        <button class="primary" id="openModal">＋ Add transaction</button>
+    </header><div class="status" id="status">Loading saved transactions...</div>
+    <section class="cards"><div class="card green"><span>Total income</span>
+        <b id="income">₹0</b><small>All recorded income</small>
+    </div>
+    <div class="card red"><span>Total expenses</span>
+        <b id="expense">₹0</b><small>All recorded spending</small></div>
+        <div class="card purple"><span>Balance</span><b id="balance">₹0</b><small>Income − expenses</small></div>
+        <div class="card gold"><span>Transactions</span><b id="count">0</b><small>Shared records</small></div>
+    </section>
+    <section class="section-title"><label>QUICK ACCESS</label>
+        <h2>Explore your finances</h2>
+    </section>
+    <div class="quick"><a href="monthly.html">
+    <b>▥ Monthly Analytics</b>
+    <span>View monthly income, expenses and trends.
+    </span>
+</a>
+<a href="yearly.html"><b>◔ Yearly Analytics</b><span>Compare annual spending and income.
+    </span>
+</a>
+<a href="transactions.html"><b>↔ Transactions</b><span>Add, search and delete saved transactions.
+    </span>
+</a></div><section class="section-title"><label>OVERVIEW</label><h2>Spending snapshot</h2>
+</section><div class="grid"><article class="panel wide"><div class="head"><div>
+    <h3>Monthly income vs expenses</h3><small>Linked to the same shared data</small>
+</div></div>
+<div id="monthlyChart" class="chart"></div></article><article class="panel"><div class="head">
+    <div>
+        <h3>Monthly expenses</h3>
+        <small>Trend</small></div></div>
+        <div id="monthlyExpenseChart" class="chart">
+        </div>
+    </article>
+</div>
+</main>
+</div>
+<div class="modal" id="modal">
+<div class="modalbox">
+<button class="x" id="closeModal">
+</button><label>NEW TRANSACTION</label>
+<h2>Add transaction</h2><form id="form">
+<input id="description" placeholder="Description" required><div class="two">
+<input id="amount" type="number" min="1" step="0.01" placeholder="Amount" required>
+<select id="type">
+    <option value="expense">Expense</option>
+    <option value="income">Income</option></select>
+</div>
+<div class="two">
+    <select id="category">
+        <option>Food</option>
+        <option>Shopping</option>
+        <option>Transport</option>
+        <option>Bills</option>
+        <option>Entertainment</option>
+        <option>Health</option>
+        <option>Education</option>
+        <option>Salary</option>
+        <option>Other</option>
+    </select>
+    <input id="date" type="date" required></div>
+    <button class="primary full">Save transaction</button>
+</form>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
