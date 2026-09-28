@@ -12,45 +12,64 @@ The application is designed to work with **Microsoft Edge**, **Python Flask**, a
 
 ---
 
-### 📸 Screenshots Section
+## 📸 Screenshots
+
+Here are some screenshots of the **Expenses Tracker** application, showcasing the dashboard, analytics, transactions, and other features.
 
 <table width="100%">
-    <tr>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau1.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau2.png" title="Expenses Tracker" width="100%" />
-        </td>
-    </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Images/tau1.png" alt="Expenses Tracker Dashboard" width="100%">
+      <br>
+      <strong>Dashboard</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="Images/tau2.png" alt="Expenses Tracker Overview" width="100%">
+      <br>
+      <strong>Overview</strong>
+    </td>
+  </tr>
 
-    <tr>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau3.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau4.png" title="Expenses Tracker" width="100%" />
-        </td>
-    </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Images/tau3.png" alt="Monthly Analytics" width="100%">
+      <br>
+      <strong>Monthly Analytics</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="Images/tau4.png" alt="Yearly Analytics" width="100%">
+      <br>
+      <strong>Yearly Analytics</strong>
+    </td>
+  </tr>
 
-    <tr>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau5.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau6.png" title="Expenses Tracker" width="100%" />
-        </td>
-    </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Images/tau5.png" alt="Transactions Management" width="100%">
+      <br>
+      <strong>Transactions</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="Images/tau6.png" alt="Expense Analysis" width="100%">
+      <br>
+      <strong>Expense Analysis</strong>
+    </td>
+  </tr>
 
-    <tr>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau7.png" title="Expenses Tracker" width="100%" />
-        </td>
-        <td width="50%">
-            <img alt="Screenshot of Expenses Tracker" src="Images/tau8.png" title="Expenses Tracker" width="100%" />
-        </td>
-    </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="Images/tau7.png" alt="Financial Reports" width="100%">
+      <br>
+      <strong>Financial Reports</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="Images/tau8.png" alt="Financial Analytics" width="100%">
+      <br>
+      <strong>Financial Analytics</strong>
+    </td>
+  </tr>
 </table>
+
 ## ✨ Features
 
 ### 📊 Dashboard
