@@ -1,0 +1,231 @@
+*{box-sizing:border-box}
+body{margin:0;
+    background:#f5f7fb;color:#182033;
+    font-family:Inter,Segoe UI,Arial,sans-serif}
+.layout{display:flex;
+    min-height:100vh}
+.sidebar{width:245px;
+    background:#171522;
+    color:#fff;
+    position:fixed;
+    left:0;top:0;
+    height:100vh;
+    padding:28px 19px}
+.brand{display:flex;
+    gap:10px;
+    align-items:center}
+.logo{width:44px;height:44px;
+    border-radius:13px;
+    background:#7557ff;
+    display:grid;
+    place-items:center;
+    font-size:23px;
+    font-weight:800}
+.brand b{display:block}
+.brand small{display:block;
+    color:#918b9e;
+    font-size:9px;
+    margin-top:3px}
+nav{margin-top:42px;
+    display:grid;
+    gap:7px}
+nav a{color:#aaa5b8;
+    text-decoration:none;
+    padding:13px;
+    border-radius:11px;
+    font-size:13px}
+nav a:hover,
+nav a.active{background:#2b2542;color:#fff}
+.budget{position:absolute;
+    left:19px;
+    right:19px;
+    bottom:25px;
+    background:#252034;
+    padding:17px;
+    border-radius:16px}
+.budget small,
+.budget span{color:#aaa5b8;
+    font-size:10px}
+.budget strong{display:block;
+    font-size:22px;
+    margin:7px 0 13px}
+.bar{height:6px;background:#ffffff18;
+    border-radius:9px;
+    overflow:hidden}
+.bar i{display:block;
+    height:100%;
+    width:0;
+    background:#9e8cff}
+main{margin-left:245px;
+    width:calc(100% - 245px);
+    max-width:1550px;
+    padding:38px 46px}
+header{display:flex;justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    margin-bottom:18px}header label,
+.section-title label,
+.modalbox label{font-size:9px;
+    letter-spacing:2px;
+    color:#7357ff;
+    font-weight:800}
+h1{font-size:32px;
+    margin:7px 0}
+    header p,
+.section-title p{color:#7f8899;
+    font-size:13px;
+    margin:0}
+.primary{border:0;background:#7357ff;
+    color:#fff;
+    padding:13px 17px;
+    border-radius:11px;
+    font-weight:700;
+    cursor:pointer}
+.status{padding:10px 13px;
+    border-radius:9px;
+    background:#eeeafe;
+    color:#5b46c3;
+    font-size:11px;
+    margin-bottom:15px}
+.ok{background:#e8f8f1;
+    color:#14845d}
+.warn{background:#fff4df;
+    color:#9a6610}
+.cards{display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:14px}.card,
+.panel{background:#fff;
+    border:1px solid #e6eaf0;
+    border-radius:18px;
+    padding:19px;
+    box-shadow:0 12px 35px #26334b0a}
+.card span,
+.card small,
+.panel small{font-size:10px;color:#7d8697}
+.card b{display:block;font-size:25px;
+    margin:12px 0 5px}
+.green b{color:#18a875}
+.red b{color:#eb5968}
+.purple b{color:#7357ff}
+.gold b{color:#cf8d18}
+.section-title{margin:30px 0 12px}
+.section-title h2{font-size:21px;margin:5px 0}
+.grid{display:grid;
+    grid-template-columns:1.55fr 1fr;
+    gap:14px;
+    margin-bottom:14px}
+.panel{min-height:280px}
+.wide{min-height:340px}
+.head{display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    margin-bottom:13px}
+.head h3{margin:0 0 4px;font-size:15px}
+.tag{font-size:9px;
+    padding:6px 9px;
+    border-radius:20px;
+    background:#e8f8f1;
+    color:#16845d}
+.chart{height:260px}.wide .chart{height:285px}
+.chart svg{width:100%;height:100%;display:block}
+.axis{stroke:#e6e9ef;stroke-width:1}
+.line{fill:none;stroke:#7357ff;
+    stroke-width:3;
+    stroke-linecap:round;
+    stroke-linejoin:round}
+.dot{fill:#7357ff}
+.bar-income{fill:#7357ff}
+.bar-expense{fill:#eb5968}
+.insight{display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f7f8fb;
+    border-radius:11px;
+    padding:13px;
+    margin:9px 0}
+.insight b{font-size:15px}
+.insight span{font-size:10px;
+    color:#858d9d}
+.tools{display:flex;
+    gap:7px}
+.tools input,
+.tools select,
+.modal input,
+.modal select{padding:10px;
+    border:1px solid #dfe3ea;
+    border-radius:9px;
+    background:#f8f9fc;
+    outline:0}
+.tx{display:grid;
+    grid-template-columns:42px 1fr auto auto;
+    gap:12px;
+    align-items:center;
+    border-top:1px solid #edf0f4;
+    padding:13px 0}
+.icon{width:40px;
+    height:40px;
+    border-radius:12px;
+    background:#f0edff;
+    display:grid;
+    place-items:center}
+    .name{font-size:12px;font-weight:700}
+.meta{font-size:10px;color:#8a92a0;margin-top:4px}
+.amt{font-size:12px;font-weight:800}
+.amt.expense{color:#eb5968}.amt.income{color:#18a875}
+.del{border:0;
+    background:none;
+    color:#888;
+    padding:5px;
+    cursor:pointer}
+.empty{text-align:center;padding:30px;color:#89909e}
+.modal{display:none;position:fixed;
+    inset:0;
+    background:#10152299;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    z-index:5}
+.modal.show{display:flex}
+.modalbox{width:480px;max-width:100%;
+    background:#fff;
+    border-radius:20px;
+    padding:27px;
+    position:relative}
+.modalbox h2{margin:8px 0}
+.x{position:absolute;
+    right:13px;
+    top:9px;
+    border:0;
+    background:none;
+    color:#777;
+    font-size:25px;
+    cursor:pointer}
+.modal form{display:grid;
+    gap:12px;
+    margin-top:18px}
+.two{display:grid;
+    grid-template-columns:1fr 1fr;gap:10px}
+.full{width:100%;
+    margin-top:4px}
+.quick{display:grid;
+    grid-template-columns:repeat(3,1fr);gap:12px}
+.quick a{padding:18px;
+    background:#fff;
+    border:1px solid #e6eaf0;
+    border-radius:15px;
+    text-decoration:none;
+    color:#182033}
+.quick b{display:block;margin-bottom:5px}
+.quick span{font-size:11px;color:#7d8697}@media(max-width:950px)
+{.sidebar{width:70px}
+.brand>div:not(.logo),
+nav a,
+.budget{display:none}main{margin-left:70px;width:calc(100% - 70px);padding:25px}
+.cards{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}}
+@media(max-width:600px){main{padding:18px 12px}
+header{align-items:flex-start;gap:8px}h1{font-size:23px}
+.cards{grid-template-columns:1fr 1fr}.head{flex-wrap:wrap}
+.tools{width:100%}.tools input{flex:1}.two{grid-template-columns:1fr}
+.tx{grid-template-columns:40px 1fr auto}.del{display:none}
+.quick{grid-template-columns:1fr}}
