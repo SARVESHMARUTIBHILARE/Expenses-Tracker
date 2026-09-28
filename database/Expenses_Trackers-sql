@@ -1,0 +1,24 @@
+CREATE DATABASE IF NOT EXISTS expenses_tracker;
+USE expenses_tracker;
+CREATE TABLE IF NOT EXISTS transactions(
+id INT AUTO_INCREMENT PRIMARY KEY,
+description VARCHAR(150) NOT NULL,
+amount DECIMAL(12,2) NOT NULL,
+type ENUM('income','expense') NOT NULL,
+category VARCHAR(50) NOT NULL,
+tx_date DATE NOT NULL,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+INSERT INTO transactions(description,amount,type,category,tx_date) VALUES
+('Monthly Salary',45000,'income','Salary','2026-01-01'),
+('Groceries',3200,'expense','Food','2026-01-05'),
+('Internet Bill',999,'expense','Bills','2026-01-12'),
+('Metro & Cab',1450,'expense','Transport','2026-01-18'),
+('Monthly Salary',45000,'income','Salary','2026-02-01'),
+('Shopping',2800,'expense','Shopping','2026-02-14'),
+('Movie Night',750,'expense','Entertainment','2026-02-20'),
+('Monthly Salary',45000,'income','Salary','2026-03-01'),
+('College Fees',6000,'expense','Education','2026-03-10'),
+('Gym Membership',1800,'expense','Health','2026-03-03'),
+('Monthly Salary',45000,'income','Salary','2026-04-01'),
+('Food & Snacks',2200,'expense','Food','2026-04-07');
